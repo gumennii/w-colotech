@@ -76,7 +76,7 @@
         </svg>
       </button>
       <video id="video" class="rounded-lg" controls autoPlay>
-        <source src="" type="video/mp4" />
+        <source src="./video/colotech-preview.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
@@ -580,12 +580,11 @@
     const closeVideo = document.querySelector("#closeModalWindow");
     const modalWindow = document.querySelector("#modalWindow");
     const videoPlayground = document.querySelector("#video");
-    const videoUrl = "./video/colotech-preview.mp4";
     playButton.onclick = () => {
       if (modalWindow.classList.contains('hidden')) {
         bodyBlock.classList.add('show-video');
         modalWindow.classList.remove('hidden');
-        videoPlayground.src = videoUrl;
+        videoPlayground.currentTime  = 0;
       }
     }
     closeVideo.onclick = function () {
