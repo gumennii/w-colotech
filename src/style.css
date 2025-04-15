@@ -5,8 +5,9 @@
     width: 100%;
     height: calc(100vh + 56px);
     display: block;
-    background: rgba(16,24,40,.75);
+    background: linear-gradient(150deg, rgba(251,249,251, .6), rgba(241,215,230, .3), rgba(252,215,178, .6));
     position: absolute;
     top: 0;
     left: 0;
+    filter: blur(1.5rem);
 }
