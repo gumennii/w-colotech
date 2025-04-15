@@ -1,16 +1,12 @@
 @import "tailwindcss";
 
-.show-video {
-    overflow: hidden;
-}
-
-.show-video::before {
+.video-wr::before {
     content: "";
+    width: 100%;
+    height: calc(100vh + 56px);
+    display: block;
+    background: rgba(16,24,40,.75);
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,.75);
-    z-index: 99;
 }
