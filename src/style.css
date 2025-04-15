@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 .video-wr::before {
-    background: linear-gradient(150deg, rgba(251,249,251, .6), rgba(241,215,230, .3), rgba(252,215,178, .6));
+    background: linear-gradient(-160deg, rgba(251,249,251, .7), rgba(241,215,230, .7), rgba(252,215,178, .7));
 }
